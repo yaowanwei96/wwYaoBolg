@@ -5,19 +5,20 @@
   
 
   
-  <title>Hexo</title>
+  <title>shiro-Springboot-vue简单登录demo | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="title: shiro-Springboot-vue简单登录demodate: 2018-08-24tags: vue API代理 shirocategories: springboot1.components创建一个login.vue2.搭建一个单页面组件的框架 123&amp;lt;template&amp;gt;&amp;lt;/template&amp;gt; 写html代码，注意template标签内一定要有一个ht">
+  <meta name="description" content="1.components创建一个login.vue2.搭建一个单页面组件的框架 123&amp;lt;template&amp;gt;&amp;lt;/template&amp;gt; 写html代码，注意template标签内一定要有一个html标签包裹所写的内容，例如下面的例子就用&amp;lt;div id=&amp;quot;login&amp;quot;&amp;gt;包裹住&amp;lt;script&amp;gt;&amp;lt;/script&amp;gt; 编写脚本&amp;lt;">
+<meta name="keywords" content="vue API代理 shiro">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo">
+<meta property="og:title" content="shiro-Springboot-vue简单登录demo">
 <meta property="og:url" content="http://yoursite.com/2018/08/24/shiro-Springboot-vue简单登录demo/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="title: shiro-Springboot-vue简单登录demodate: 2018-08-24tags: vue API代理 shirocategories: springboot1.components创建一个login.vue2.搭建一个单页面组件的框架 123&amp;lt;template&amp;gt;&amp;lt;/template&amp;gt; 写html代码，注意template标签内一定要有一个ht">
+<meta property="og:description" content="1.components创建一个login.vue2.搭建一个单页面组件的框架 123&amp;lt;template&amp;gt;&amp;lt;/template&amp;gt; 写html代码，注意template标签内一定要有一个html标签包裹所写的内容，例如下面的例子就用&amp;lt;div id=&amp;quot;login&amp;quot;&amp;gt;包裹住&amp;lt;script&amp;gt;&amp;lt;/script&amp;gt; 编写脚本&amp;lt;">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-08-24T02:48:49.716Z">
+<meta property="og:updated_time" content="2018-08-24T03:03:32.662Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
-<meta name="twitter:description" content="title: shiro-Springboot-vue简单登录demodate: 2018-08-24tags: vue API代理 shirocategories: springboot1.components创建一个login.vue2.搭建一个单页面组件的框架 123&amp;lt;template&amp;gt;&amp;lt;/template&amp;gt; 写html代码，注意template标签内一定要有一个ht">
+<meta name="twitter:title" content="shiro-Springboot-vue简单登录demo">
+<meta name="twitter:description" content="1.components创建一个login.vue2.搭建一个单页面组件的框架 123&amp;lt;template&amp;gt;&amp;lt;/template&amp;gt; 写html代码，注意template标签内一定要有一个html标签包裹所写的内容，例如下面的例子就用&amp;lt;div id=&amp;quot;login&amp;quot;&amp;gt;包裹住&amp;lt;script&amp;gt;&amp;lt;/script&amp;gt; 编写脚本&amp;lt;">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -67,16 +68,30 @@
         <section id="main"><article id="post-shiro-Springboot-vue简单登录demo" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2018/08/24/shiro-Springboot-vue简单登录demo/" class="article-date">
-  <time datetime="2018-08-24T02:47:29.568Z" itemprop="datePublished">2018-08-24</time>
+  <time datetime="2018-08-23T16:00:00.000Z" itemprop="datePublished">2018-08-24</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/springboot/">springboot</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
     
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      shiro-Springboot-vue简单登录demo
+    </h1>
+  
+
+      </header>
+    
     <div class="article-entry" itemprop="articleBody">
       
-        <p>title: shiro-Springboot-vue简单登录demo<br>date: 2018-08-24<br>tags: vue API代理 shiro<br>categories: springboot<br>1.components创建一个login.vue<br>2.搭建一个单页面组件的框架</p>
+        <p>1.components创建一个login.vue<br>2.搭建一个单页面组件的框架</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;template&gt;&lt;/template&gt; 写html代码，注意template标签内一定要有一个html标签包裹所写的内容，例如下面的例子就用&lt;div id=&quot;login&quot;&gt;包裹住</span><br><span class="line">&lt;script&gt;&lt;/script&gt; 编写脚本</span><br><span class="line">&lt;style&gt;&lt;/style&gt; 样式</span><br></pre></td></tr></table></figure>
 <p>用element-ui组件先编写一个基本的页面</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;login-container&quot;&gt;</span><br><span class="line">    &lt;el-form autoComplete=&quot;on&quot; :model=&quot;loginForm&quot; :rules=&quot;loginRules&quot; ref=&quot;loginForm&quot; label-position=&quot;left&quot;</span><br><span class="line">             label-width=&quot;0px&quot;</span><br><span class="line">             class=&quot;card-box login-form&quot;&gt;</span><br><span class="line">      &lt;h3 class=&quot;title&quot;&gt;后台管理系统&lt;/h3&gt;</span><br><span class="line">      &lt;el-form-item prop=&quot;username&quot;&gt;</span><br><span class="line">        &lt;span class=&quot;svg-container svg-container_login&quot;&gt;</span><br><span class="line">          &lt;svg-icon icon-class=&quot;user&quot;/&gt;</span><br><span class="line">        &lt;/span&gt;</span><br><span class="line">        &lt;el-input v-model=&quot;loginForm.username&quot; autoComplete=&quot;on&quot;/&gt;</span><br><span class="line">      &lt;/el-form-item&gt;</span><br><span class="line">      &lt;el-form-item prop=&quot;password&quot;&gt;</span><br><span class="line">        &lt;span class=&quot;svg-container&quot;&gt;</span><br><span class="line">          &lt;svg-icon icon-class=&quot;password&quot;&gt;&lt;/svg-icon&gt;</span><br><span class="line">        &lt;/span&gt;</span><br><span class="line">        &lt;el-input type=&quot;password&quot; @keyup.enter.native=&quot;handleLogin&quot; v-model=&quot;loginForm.password&quot;</span><br><span class="line">                  autoComplete=&quot;on&quot;&gt;&lt;/el-input&gt;</span><br><span class="line">      &lt;/el-form-item&gt;</span><br><span class="line">      &lt;el-form-item&gt;</span><br><span class="line">        &lt;el-button type=&quot;primary&quot; style=&quot;width:100%;&quot; :loading=&quot;loading&quot; @click.native.prevent=&quot;handleLogin&quot;&gt;</span><br><span class="line">          登录</span><br><span class="line">        &lt;/el-button&gt;</span><br><span class="line">      &lt;/el-form-item&gt;</span><br><span class="line">    &lt;/el-form&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br></pre></td></tr></table></figure>
@@ -100,9 +115,11 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/08/24/shiro-Springboot-vue简单登录demo/" data-id="cjl7esm6n0001q0urwuxwm5x1" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/08/24/shiro-Springboot-vue简单登录demo/" data-id="cjl7ew4vk00011survtcvatka" class="article-share-link">Share</a>
       
       
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vue-API代理-shiro/">vue API代理 shiro</a></li></ul>
+
     </footer>
   </div>
   
@@ -128,7 +145,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/跨域/">跨域</a></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/springboot/">springboot</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/跨域/">跨域</a></li></ul>
     </div>
   </div>
 
@@ -138,7 +155,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/vue-API代理/">vue API代理</a></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/vue-API代理/">vue API代理</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vue-API代理-shiro/">vue API代理 shiro</a></li></ul>
     </div>
   </div>
 
@@ -148,7 +165,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/vue-API代理/" style="font-size: 10px;">vue API代理</a>
+      <a href="/tags/vue-API代理/" style="font-size: 10px;">vue API代理</a> <a href="/tags/vue-API代理-shiro/" style="font-size: 10px;">vue API代理 shiro</a>
     </div>
   </div>
 
@@ -170,7 +187,7 @@
       <ul>
         
           <li>
-            <a href="/2018/08/24/shiro-Springboot-vue简单登录demo/">(no title)</a>
+            <a href="/2018/08/24/shiro-Springboot-vue简单登录demo/">shiro-Springboot-vue简单登录demo</a>
           </li>
         
           <li>
